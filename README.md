@@ -3,7 +3,6 @@
   <h6>A cli tool to help generating PPP files (Progress, Plans & Problems) and sending them to Slack<h6>
 </div>
 
-Read more about PPP files here: https://weekdone.com/resources/plans-progress-problems
 
 This cli tool can help you:
 - Create daily PPPs
@@ -13,6 +12,9 @@ This cli tool can help you:
     - Each weekly PPP is saved as: `weekly_YYYY-MM-DD_YYYY-MM-DD`
     - When generating a new weekly PPP, all PPPs for the last week are merged into a template
 - Automatically post your PPP to a slack channel
+
+## Why
+[PPP](https://weekdone.com/resources/plans-progress-problems) is a great tool for boosting your productivity AND is a perfect fit for [Slack daily updates](https://medium.com/commit-push/slack-tip-for-developers-this-is-what-your-daily-updates-should-look-like-e7440f675c2d).
 
 ## Installation
 
