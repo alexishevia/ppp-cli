@@ -7,8 +7,11 @@ Read more about PPP files here: https://weekdone.com/resources/plans-progress-pr
 
 This cli tool can help you:
 - Create daily PPPs
-    - Each PPP is saved as a file with name: `YYYY-MM-DD`
+    - Each PPP is saved as: `YYYY-MM-DD`
     - When generating a new PPP, the previous PPP is used as a template
+- Create weekly PPPs
+    - Each weekly PPP is saved as: `weekly_YYYY-MM-DD_YYYY-MM-DD`
+    - When generating a new weekly PPP, all PPPs for the last week are used as a template
 - Automatically post your PPP to a slack channel
 
 ## Installation
@@ -36,15 +39,17 @@ Example:
 }
 ```
 
-Note: you can specify a different config file using the `PPP_CONFIG_FILE`
-environment variable.
-
 ## Usage
-Run:
 ```
-ppp
+ppp [options]
 ```
-Your default editor (`$EDITOR`) will open for you to edit your PPP for the day.
+Your default editor (`$EDITOR`) will open for you to edit your PPP.
 
 After saving & closing the editor, the PPP will be posted to the Slack channel
 you configured.
+
+Options:
+- `-w, --weekly`
+    Generate a weekly PPP (by default a daily PPP is generated).
+- `-F <filename>`
+    Specifies an alternative configuration file.

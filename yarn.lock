@@ -58,9 +58,9 @@ isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-lodash@^4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+luxon@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-0.3.1.tgz#627f78f5fea94ac19e1cf2900f398a9338422bbd"
 
 methods@^1.1.1:
   version "1.1.2"
@@ -79,6 +79,10 @@ mime-types@^2.1.12:
 mime@^1.4.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
+
+minimist@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
 moment@^2.20.1:
   version "2.20.1"

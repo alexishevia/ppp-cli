@@ -1,13 +1,11 @@
-const CONFIG_FILENAME = '.ppprc.json';
-const moment = require('moment');
-
-const os = require('os');
-const path = require('path');
+const { DateTime } = require('luxon');
 
 module.exports = {
-  CONFIG_FILEPATH: process.env.PPP_CONFIG_FILE ||
-                   path.join(os.homedir(), CONFIG_FILENAME),
-  TODAY: moment().format('YYYY-MM-DD'),
+  CONFIG_FILENAME: '.ppprc.json',
+  NOW: DateTime.local(),
+  DAILY: 'DAILY',
+  WEEKLY: 'WEEKLY',
+
   template: `*Progress*
 Biggest accomplishments for yesterday
 -

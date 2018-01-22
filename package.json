@@ -9,7 +9,8 @@
     "url": "https://github.com/alexishevia/ppp-cli"
   },
   "dependencies": {
-    "moment": "^2.20.1",
+    "luxon": "^0.3.1",
+    "minimist": "^1.2.0",
     "superagent": "^3.8.2"
   },
   "bin": {
