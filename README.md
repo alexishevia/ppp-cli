@@ -11,7 +11,7 @@ This cli tool can help you:
     - When generating a new PPP, the previous PPP is used as a template
 - Create weekly PPPs
     - Each weekly PPP is saved as: `weekly_YYYY-MM-DD_YYYY-MM-DD`
-    - When generating a new weekly PPP, all PPPs for the last week are used as a template
+    - When generating a new weekly PPP, all PPPs for the last week are merged into a template
 - Automatically post your PPP to a slack channel
 
 ## Installation
