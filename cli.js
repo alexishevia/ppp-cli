@@ -41,7 +41,7 @@ const main = async () => {
 
     // if today's PPP already exists, exit program.
     if (await getTodaysPPP(config.dirpath)) {
-      debug('Today\'s PPP found. Nothing to do.');
+      debug(`Today's PPP already exists: ${filepathTodaysPPP}`);
       process.exit(0);
     }
 

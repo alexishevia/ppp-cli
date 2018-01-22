@@ -1,6 +1,6 @@
 {
   "name": "ppp-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cli tool to help generating PPP files (Progress, Plans & Problems) and sending them to Slack",
   "author": "Alexis Hevia <hevia.alexis@gmail.com>",
   "license": "ISC",
