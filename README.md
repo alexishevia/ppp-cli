@@ -6,7 +6,9 @@
 Read more about PPP files here: https://weekdone.com/resources/plans-progress-problems
 
 This cli tool can help you:
-- Create daily PPPs, where each PPP uses the previous PPP as template, and is saved as a file with name: `YYYY-MM-DD`
+- Create daily PPPs
+    - Each PPP is saved as a file with name: `YYYY-MM-DD`
+    - When generating a new PPP, the previous PPP is used as a template
 - Automatically post your PPP to a slack channel
 
 ## Installation

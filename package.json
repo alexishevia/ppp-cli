@@ -1,5 +1,5 @@
 {
-  "name": "@alexishevia/ppp-cli",
+  "name": "ppp-cli",
   "version": "0.1.0",
   "description": "A cli tool to help generating PPP files (Progress, Plans & Problems) and sending them to Slack",
   "author": "Alexis Hevia <hevia.alexis@gmail.com>",
