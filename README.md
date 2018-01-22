@@ -3,15 +3,21 @@
   <h6>A cli tool to help generating PPP files (Progress, Plans & Problems) and sending them to Slack<h6>
 </div>
 
+Read more about PPP files here: https://weekdone.com/resources/plans-progress-problems
+
+This cli tool can help you:
+- Create daily PPPs, where each PPP uses the previous PPP as template, and is saved as a file with name: `YYYY-MM-DD`
+- Automatically post your PPP to a slack channel
+
 ## Installation
 
 ```shell
 npm install ppp-cli --global
 ```
 
-You need to have installed Node 8+.
+You'll need Node 8+.
 
-## Usage
+## Configuration
 Create a config file in `~/.pprc.json` with the following values:
 - dirpath: absolute path to the directory where PPPs are stored
 - token: slack legacy token (https://api.slack.com/custom-integrations/legacy-tokens)
@@ -28,8 +34,15 @@ Example:
 }
 ```
 
-Then, run `ppp`. Your default editor (as configured in the $EDITOR env
-variable) will open for you to write your PPP.
+Note: you can specify a different config file using the `PPP_CONFIG_FILE`
+environment variable.
 
-After closing the editor, the PPP will be posted to the Slack channel you
-configured.
+## Usage
+Run:
+```
+ppp
+```
+Your default editor (`$EDITOR`) will open for you to edit your PPP for the day.
+
+After saving & closing the editor, the PPP will be posted to the Slack channel
+you configured.
