@@ -3,7 +3,6 @@
   <h6>A cli tool to help generating PPP files (Progress, Plans & Problems) and sending them to Slack<h6>
 </div>
 
-
 This cli tool can help you:
 - Create daily PPPs
     - Each PPP is saved as: `YYYY-MM-DD`
@@ -43,7 +42,7 @@ Example:
 
 ## Usage
 ```
-ppp [options]
+npx ppp-cli [options]
 ```
 Your default editor (`$EDITOR`) will open for you to edit your PPP.
 
@@ -54,4 +53,4 @@ Options:
 - `-w, --weekly`
     Generate a weekly PPP (by default a daily PPP is generated).
 - `-F <filename>`
-    Specifies an alternative configuration file.
+    Specifies an alternative configuration file. Default is `~/.pprc.json`
