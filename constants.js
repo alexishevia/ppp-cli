@@ -1,7 +1,9 @@
 const { DateTime } = require('luxon');
+const os = require('os');
+const path = require('path');
 
 module.exports = {
-  CONFIG_FILENAME: '.ppprc.json',
+  CONFIG_FILEPATH: path.join(os.homedir(), '.ppprc.json'),
   NOW: DateTime.local(),
   DAILY: 'DAILY',
   WEEKLY: 'WEEKLY',
