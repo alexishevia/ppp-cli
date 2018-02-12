@@ -1,6 +1,6 @@
 <div align=center>
   <h1>PPP CLI</h1>
-  <h6>A cli tool to help generating PPP files (Progress, Plans & Problems) and sending them to Slack<h6>
+  <h6>A cli tool to help generate PPP files (Progress, Plans & Problems) and send them to Slack<h6>
 </div>
 
 This cli tool can help you:
@@ -27,8 +27,8 @@ You'll need Node 8+.
 Create a config file in `~/.pprc.json` with the following values:
 - dirpath: absolute path to the directory where PPPs are stored
 - token: slack legacy token (https://api.slack.com/custom-integrations/legacy-tokens)
-- channel: id of slack channel where PPP will be posted
-- user: id of slack user to post as
+- channel: id of the slack channel where PPP will be posted ([how to get the channel id](https://stackoverflow.com/a/44883343/4414505))
+- user: id of the slack user to post as
 
 Example:
 ```
@@ -41,7 +41,7 @@ Example:
 ```
 
 ## Usage
-```
+```shell
 npx ppp-cli [options]
 ```
 Your default editor (`$EDITOR`) will open for you to edit your PPP.
