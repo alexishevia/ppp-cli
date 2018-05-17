@@ -24,7 +24,7 @@ npm install ppp-cli --global
 You'll need Node 8+.
 
 ## Configuration
-Create a config file in `~/.pprc.json` with the following values:
+Create a config file in `~/.ppprc.json` with the following values:
 - dirpath: absolute path to the directory where PPPs are stored
 - token: slack legacy token (https://api.slack.com/custom-integrations/legacy-tokens)
 - channel: id of the slack channel where PPP will be posted ([how to get the channel id](https://stackoverflow.com/a/44883343/4414505))
